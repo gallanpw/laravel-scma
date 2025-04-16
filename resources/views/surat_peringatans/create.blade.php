@@ -28,7 +28,7 @@
         </div>
         <div class="mb-3">
             <label>Isi SP</label>
-            <textarea name="isi_sp" class="form-control" rows="4" required></textarea>
+            <textarea name="alasan" class="form-control" rows="4" required></textarea>
         </div>
         <div class="mb-3">
             <label>Ditandatangani Oleh</label>

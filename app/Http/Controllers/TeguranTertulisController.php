@@ -34,7 +34,7 @@ class TeguranTertulisController extends Controller
         $request->validate([
             'karyawan_id' => 'required|exists:karyawans,id',
             'tanggal' => 'required|date',
-            'isi_teguran' => 'required|string',
+            'alasan_teguran' => 'required|string',
             'ditandatangani_oleh' => 'required|string|max:255',
         ]);
 

@@ -27,7 +27,7 @@
                 <tr>
                     <td>{{ $teguran->karyawan->nama }}</td>
                     <td>{{ $teguran->tanggal }}</td>
-                    <td>{{ Str::limit($teguran->isi_teguran, 30) }}</td>
+                    <td>{{ Str::limit($teguran->alasan_teguran, 30) }}</td>
                     <td>{{ $teguran->ditandatangani_oleh }}</td>
                     <td>
                         <a href="{{ route('teguran-tertulis.edit', $teguran) }}" class="btn btn-sm btn-warning">Edit</a>

@@ -69,7 +69,7 @@ class SuratPeringatanController extends Controller
             'karyawan_id' => 'required|exists:karyawans,id',
             'tingkat' => 'required|integer|in:1,2,3',
             'tanggal' => 'required|date',
-            'isi_sp' => 'required|string',
+            'alasan' => 'required|string',
             'ditandatangani_oleh' => 'required|string|max:255',
         ]);
 

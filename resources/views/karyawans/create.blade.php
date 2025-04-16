@@ -18,7 +18,7 @@
             <label>Divisi</label>
             <select name="divisi_id" class="form-control" required>
                 @foreach($divisis as $divisi)
-                    <option value="{{ $divisi->id }}">{{ $divisi->nama }}</option>
+                    <option value="{{ $divisi->id }}">{{ $divisi->nama_divisi }}</option>
                 @endforeach
             </select>
         </div>

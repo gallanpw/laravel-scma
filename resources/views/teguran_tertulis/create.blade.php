@@ -19,8 +19,8 @@
             <input type="date" name="tanggal" class="form-control" required>
         </div>
         <div class="mb-3">
-            <label>Isi Teguran</label>
-            <textarea name="isi_teguran" class="form-control" rows="4" required></textarea>
+            <label>Ise Teguran</label>
+            <textarea name="alasan_teguran" class="form-control" rows="4" required></textarea>
         </div>
         <div class="mb-3">
             <label>Ditandatangani Oleh</label>

@@ -28,7 +28,7 @@
                 <tr>
                     <td>{{ $karyawan->nama }}</td>
                     <td>{{ $karyawan->nip }}</td>
-                    <td>{{ $karyawan->divisi->nama }}</td>
+                    <td>{{ $karyawan->divisi->nama_divisi }}</td>
                     <td>{{ $karyawan->jabatan }}</td>
                     <td>{{ $karyawan->tanggal_masuk }}</td>
                     <td>
